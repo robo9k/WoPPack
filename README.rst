@@ -31,5 +31,13 @@ Extract ``WoPPack`` into your NetRadiant installation.
     $ # extract WoPPack and copy into NetRadiant directory
     $ unzip WoPPack-master.zip && cp --recursive WoPPack-master/* ~/netradiant/
 
-When starting NetRadiant, select "World of Padman" as the game, then check and confirm
-that the engine path is correct.
+When starting NetRadiant, select "World of Padman" as the game, then check
+and confirm that the engine path is correct.
+
+As a last step, you need to copy the file ``custinfoparms.txt`` into the
+right place for ``q3map2``.
+
+.. sourcecode:: sh
+
+    $ mkdir --parents ~/.padman/wop/scripts/
+    $ cp WoPPack-master/wop.game/wop/scripts/custinfoparms.txt ~/.padman/wop/scripts/
