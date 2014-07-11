@@ -9,6 +9,9 @@ This is based upon the original gamepack which can be found in
 ``wop-1.5.x-to-1.6-patch-unified.zip`` /
 ``XTRAS/editing files/WoP radiant files.zip``.
 
+The gamepack is compatible with World of Padman v1.5+ and any version of NetRadiant.
+It should work with the GtkRadiant 1.5.0 series as well.
+
 Installation
 ------------
 
